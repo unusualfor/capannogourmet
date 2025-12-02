@@ -11,7 +11,7 @@
 }
 
 .col-hi {
-  font-size: 14vmin;
+  font-size: 10vmin;
   background-image: linear-gradient(to right, var(--col-hi), var(--col-i2));
   background-clip: text;
   -webkit-background-clip: text;
@@ -20,7 +20,7 @@
 }
 
 .col-he {
-  font-size: 14vmin;
+  font-size: 10vmin;
   background-image: linear-gradient(to right, var(--col-he), var(--col-e2));
   background-clip: text;
   -webkit-background-clip: text;
@@ -29,7 +29,7 @@
 }
 
 .col-ei {
-  font-size: 14vmin;
+  font-size: 10vmin;
   background-image: linear-gradient(to right, var(--col-e2), var(--col-i2));
   background-clip: text;
   -webkit-background-clip: text;

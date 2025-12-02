@@ -1,8 +1,8 @@
-@import '@fontsource/sacramento/400.css';
+@import "@fontsource/playwrite-us-trad-guides/index.css";
 
 body {
   margin: 0;
-  font-family: 'Sacramento', serif;
+  font-family: 'Playwrite US Trad Guides', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

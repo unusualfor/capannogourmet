@@ -60,112 +60,241 @@ function Home() {
   }
   return (
     <div className="App">
-      <img alt="Birds" src="./birds.svg" className="birds appearing" />
-      <img alt="People" src="./people.svg" className="people appearing" />
+      {/* <img alt="Draghi" src="./dragons.svg" className="birds appearing" /> */}
+      <img alt="Chefs" src="./chefs.svg" className="people appearing" />
+      
+      {/* SEZIONE 1: Header con nome ristorante */}
       <header className="App-header fullscreen anchor c1">
         <p className="header-content">
-          <span className="col-he">Anna</span><br/> 
-          e<br/>
-          <span className="col-hi">Domenico</span>
+          <span className="col-he">Il Capanno</span><br/> 
+          <span className="col-hi">Gourmet</span>
         </p>
-        <Mail />
-        <Fab 
-          className={`
-            button
-            fixed
-            ${isAppearing ? 'appearing' : 'bouncing'}
-            ${isVisible ? '' : 'hidden'}
-          `} onClick={scroll}>
+        <p className="subtitle">Home Restaurant Clandestino</p>
+        <Fab className={`button fixed ${isAppearing ? 'appearing' : 'bouncing'} ${isVisible ? '' : 'hidden'}`} onClick={scroll}>
           <ArrowDownwardIcon />
         </Fab>
       </header>
+
+      {/* SEZIONE 2: Intro goliardica */}
       <section className="fullscreen anchor c2">
         <p>
-          Ciao!
+          Due uomini.
         </p>
         <p>
-          Abbiamo pensato di non usare carta e inchiostro
+          Un capanno.
         </p>
         <p>
-          🙃
+          Molto capanno gourmet.
+        </p>
+        <p>
+          🙆‍♀️🙆🙆‍♂️
         </p>
       </section>
+
+      {/* SEZIONE 3: Chi siamo - FOFI */}
       <section className="fullscreen anchor c3">
-        <p>
-          Con questo messaggio siete invitati al nostro
+        <p className="chef-title">Chef <span className="col-hi">Fofi</span></p>
+        <p>🌲</p>
+        <p className="bio">
+          Formatosi a Faenz' e nelle foreste dell'Appennino Tosco-Emiliano, 
+          ha appreso i segreti del dragoncello selvatico dai monaci silenti
+          di Naples.
         </p>
-        <p>
-          <span className="col-ei">Matrimonio</span>
+        <p className="bio">
+          4 brevetti. 0 stelle Michelin. 
         </p>
-        <img src="./gif.webp" alt="Gif Barney e Robin" />
       </section>
+
+      {/* SEZIONE 4: Chi siamo - DOME */}
       <section className="fullscreen anchor c4">
+        <p className="chef-title">Maestro <span className="col-he">Domesh</span></p>
+        <p>🏛️</p>
+        <p className="bio">
+          Fonico di fama internazionale prestato alla cucina.
+          Capace di sentire quando la pasta è al dente 
+          solo dal suono sui bordi della pentola.
+        </p>
+        <p className="bio">
+          "La giusta tenerina è un mix: 
+          se non allappa, hai sbagliato tutto."
+        </p>
+      </section>
+
+      {/* SEZIONE 5: L'invito */}
+      <section className="fullscreen anchor c5">
         <p>
-          28 Aprile 2024
+          Siete cordialmente invitati
         </p>
         <p>
-          Ore 11:00
+          all'esclusivo <span className="col-ei">Pranzo di Natale 2025</span>
         </p>
         <p>
-          Parrocchia SS Crocifisso
+          del ristorante Capanno Gourmet
         </p>
-        <p className="smaller">
-          dei Frati Minori Cappuccini
+        <img src="./gif-cucina.gif" alt="Gif cucina disastrosa" />
+      </section>
+
+      {/* SEZIONE 6: Data e ora */}
+      <section className="fullscreen anchor c6">
+        <p>
+          📅 Domenica 14 Dicembre, 2025
         </p>
         <p>
-          <span className="address">
-            <a href="https://maps.app.goo.gl/Mh6PXJpYPg4oJXHc8">
-              Via Canal Grande, 57, Faenza (Ra)
-              📍
-            </a>
-          </span>
-        </p>
-        </section>
-        <section className="fullscreen anchor c5">
-        <p>
-          Dopo si va a
+          🕖 Ore 12:30
         </p>
         <p>
-          Borgo Fregnano
+          📍 Casa di Fofi
         </p>
         <p>
-          <span className="address">
-            <a href="https://maps.app.goo.gl/wy6TrgTWbbWrjNB47">
-              Via Baccagnano, 37, Brisighella (Ra)
-              📍
-            </a>
-          </span>
+          Dress code: Vestiti comodi, elastico in vita consigliato
         </p>
+      </section>
+
+      {/* SEZIONE 7: Conferma presenza */}
+      <section className="fullscreen anchor c7">
         <p>
-          🫡
+          Conferma la tua presenza entro il 7 Dicembre
         </p>
-        </section>
-        <section className="fullscreen anchor c6">
-        <p>
-          Confermate la presenza
-          selezionando il vostro nome.
-          Entro Pasqua dai!
-          🫶
+        <p className="fullscreen anchor c7">
+          (ed eventuali gravidanze, intolleranze, allergie, 
+          o traumi legati al dragoncello / ai dragoncelli)
         </p>
         <Outlet />
       </section>
-      <section className="fullscreen anchor c7">
-        <p>
-          Non ci interessano regali,
-          ma solo far festa con voi,
-          quindi, se volete offrirci un gin tonic, cliccate qua sotto.
-        </p>
-        <a href="https://paypal.me/DDiIorio">
-          <img alt="Paga con PayPal" className="payment" src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg">
-          </img>
-        </a>
-        <a href="https://www.satispay.com/download/qrcode/S6Y-SVN--8440F70B-130F-4949-BD32-FC8B0DD2EC7E">
-          <img alt="Paga con Satispay" className="payment" src="https://www.satispay.com/static/958587bb44021b34c855f7fcdbee6ee2/logo.svg">
-          </img>
-        </a>
+
+      {/* SEZIONE 8: Il Menu (teaser) */}
+      <section className="fullscreen anchor c8">
+        <p className="col-ei">Il Menu - Edizione Limitata MMXXV</p>
+        <div>
+          <div className="menu-course">
+            <h2>Radici e Memorie, composizione vegetale di benvenuto</h2>
+            <div className="menu-subitem">
+              <span className="menu-dish">Selezione di ortaggi crudi in verticalità strutturale, scaglie di Parmigiano Reggiano 36 mesi in caduta libera, anelli di pasta pugliese in forma toroidale, miniature di Daucus carota in purezza</span>
+              <span className="menu-desc">(carotine baby, tarallini, parmigiano, e quello che stava per scadere nella dispensa)</span>
+            </div>
+          </div>
+          <div className="menu-course">
+            <h2>Ricordi, due interpretazioni del Disco di Grano</h2>
+            <div className="menu-subitem">
+              <span className="menu-dish">I. Rosso Profondo: Base di pomodoro San Marzano, nuvola di latticini caprini e fermenti ellenici, coronata da foglie di Brassica oleracea croccante</span>
+              <span className="menu-desc">(pizza rossa con mousse ricotta-yogurt e chips di cavolo nero)</span>
+            </div>
+            <div className="menu-subitem">
+              <span className="menu-dish">II. La Margherita Eterna: Omaggio alla Regina, nella sua forma più pura e non negoziabile</span>
+              <span className="menu-desc">(margherita, che cazzo vuoi di più)</span>
+            </div>
+          </div>
+          <div className="menu-course">
+            <h2>Dialogo tra Tradizione e Redenzione, Bis di Primi Natalizi</h2>
+            <div className="menu-subitem">
+              <span className="menu-dish">I. Gnocco della Foresta: Piccole nuvole di Solanum tuberosum, avvolte in ragù di proteina vegetale fermentata, in omaggio alle scelte etiche dello Chef</span>
+              <span className="menu-desc">(gnocchetti al ragù di tempeh — sì, è buono, fidati)</span>
+            </div>
+            <div className="menu-subitem">
+              <span className="menu-dish">II. Il Cappelletto nel suo Brodo: Come da tradizione emiliano-romagnola, nuotano in brodo dorato di carne mista secondo il disciplinare della nonna di qualcun altro perchè gli chef sono terroni</span>
+              <span className="menu-desc">(cappelletti in brodo — non si scherza)</span>
+            </div>
+          </div>
+          <div className="menu-course">
+            <h2>Autunno Tardivo, Dolce</h2>
+            <div className="menu-subitem">
+              <span className="menu-dish">Crumble di cereali alternativi in destrutturazione, caco maturo con sussurro di cacao, mousse di latte ovino addolcito, lacrime d'acero canadese</span>
+              <span className="menu-desc">(biscotti senza glutine sbriciolati, caco, ricotta di pecora dolce, sciroppo d'acero)</span>
+            </div>
+          </div>
+          <div className="menu-course">
+            <h2>L'odore della malinconia</h2>
+            <div className="menu-subitem">
+              <span className="menu-dish">Estratto di Coffea Arabica Monoorigine Colombia o Brasile, servito nella sua forma più onesta ed espressa</span>
+              <span className="menu-desc">(caffè espresso dalla Nespresso)</span>
+            </div>
+            <div className="menu-subitem">
+              <span className="menu-dish">L'Ammazzacaffè del Drago</span>
+              <span className="menu-desc">(Selezione a discrezione dello Chef. Dovrebbe esserci ancora del Luigino di Deiv dall'anno scorso)</span>
+            </div>
+          </div>
+        </div>
+        <p>Menu soggetto a variazioni basate sull'umore dello Chef, disponibilità degli ingredienti, e livello di sopportazione del Fonico.</p>
       </section>
-      <section className="fullscreen anchor c8 noi">
-        <p className="col-ei">Grazie!</p>
+
+      {/* SEZIONE 8B: Cocktail List */}
+      <section className="fullscreen anchor c8 cocktails">
+        <p className="col-ei">Cocktail List</p>
+        <div className="menu-course">
+          <h2>Selezione Agrumata</h2>
+          <div className="menu-subitem">
+            <span className="menu-dish">Essenza Nostalgica di Chinotto</span>
+            <span className="menu-desc">Tonica, limone, ricordi d'infanzia</span>
+          </div>
+          <div className="menu-subitem">
+            <span className="menu-dish">La Fefa va in Giappone</span>
+            <span className="menu-desc">Tonica, matcha, essenza di ferie</span>
+          </div>          
+          <div className="menu-subitem">
+            <span className="menu-dish">Rosa del Pompelmo Errante</span>
+            <span className="menu-desc">Tonica rosa, pompelmo, dubbi esistenziali</span>
+          </div>
+          <div className="menu-subitem">
+            <span className="menu-dish">Il Ginepro Redento</span>
+            <span className="menu-desc">London Dry, tonica, preghiere</span>
+          </div>
+        </div>
+        <div className="menu-course">
+          <h2>Selezione Amara</h2>
+          <div className="menu-subitem">
+            <span className="menu-dish">Garibaldi dei Mille</span>
+            <span className="menu-desc">Bitter, spremuta di arancia, unità nazionale</span>
+          </div>
+          <div className="menu-subitem">
+            <span className="menu-dish">Il Fusettone della Nonna</span>
+            <span className="menu-desc">Bitter, tonica al pompelmo, segreti di famiglia</span>
+          </div>
+          <div className="menu-subitem">
+            <span className="menu-dish">L'Americano a Forlì</span>
+            <span className="menu-desc">Per chi non sa decidersi</span>
+          </div>          
+          <div className="menu-subitem">
+            <span className="menu-dish">Negroni del Capanno</span>
+            <span className="menu-desc">Equilibrio. Potenza. Conseguenze.</span>
+          </div>          
+        </div>
+        <p>Durante la serata sarà disponibile la simulazione storica di Pro Evolution Soccer — Naples Edition su hardware Sony di seconda generazione emulato.</p>
+        <p>Formazioni taroccate, Fofi fortissimo ma con 1/99 al tiro. Master League infinita. Nessun salvataggio garantito.</p>
+      </section>
+
+      {/* SEZIONE 9: Recensioni */}
+      <section className="fullscreen anchor c9 recensioni">
+        <p className="col-ei">Dicono di noi</p>
+        
+        <div className="review">
+          <p className="review-text">
+            "Potrei anche mangiare per terra in un ristorante del genere"
+          </p>
+          <p className="review-author">— 🐕 Bau, Cliente Peloso Verificato</p>
+          <p className="stars">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
+            "Il fonico mi ha spiegato l'impiattamento per 40 minuti. Ho pianto."
+          </p>
+          <p className="review-author">— Marco T., Sopravvissuto</p>
+          <p className="stars">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
+            "Ho prenotato 6 mesi fa. Ancora non so dove sia."
+          </p>
+          <p className="review-author">— Location Segreta Enjoyer</p>
+          <p className="stars">⭐</p>
+        </div>
+      </section>
+
+      {/* SEZIONE 10: Chiusura */}
+      <section className="fullscreen anchor c10 noi">
+        <p className="col-ei">Ci vediamo al Capanno</p>
+        <p>🐉🎄🐉</p>
       </section>
     </div>
   );

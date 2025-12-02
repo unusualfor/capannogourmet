@@ -1,9 +1,23 @@
+.menu-subitem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+.menu-dish {
+  font-weight: bold;
+}
+.menu-desc {
+  margin-top: 0.3em;
+  font-style: italic;
+}
 @import url('./colors.css');
 
 
 .App-header {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -21,24 +35,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 10vmin;
+  font-size: 2.5vmin;
   color: var(--col-dr);
 }
 
 .smaller {
-  font-size: 8vmin;
+  font-size: 5vmin;
 }
 
 .birds {
   position: fixed!important;
-  width: 90vmin;
+  max-width: 75px;
+  height: auto;
   top: 0;
   right: 0;
 }
 
 .people {
   position: fixed!important;
-  width: 50vmin;
+  max-width: 75px;
+  height: auto;
   bottom: 0;
   left: 0;
 }
@@ -136,7 +152,7 @@ p.users {
 }
 
 .noi {
-  background-image: url('/public/noi.jpg');
+  background-image: url('/public/noi.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
