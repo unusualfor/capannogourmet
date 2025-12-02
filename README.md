@@ -1,76 +1,68 @@
-# What is this?
 
-See live example [here](https://apr-28.web.app/demo).
+# Il Capanno Gourmet
 
-Backend is a node.js express application based on [this project](https://github.com/domekuf/express-docker/tree/lista-web-2).\
+**Il Capanno Gourmet** is a playful, themed web app for a home restaurant event, built with React. It features a multi-section landing page, interactive RSVP, a structured menu, and a cocktail list, all styled for a unique and fun experience.
 
-## Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Modern React single-page application
+- Themed sections: restaurant intro, chef bios, event invitation, menu, cocktails, reviews, and RSVP
+- Interactive RSVP and user list (with backend API integration)
+- Custom styles and playful design
+- Containerized with Docker and ready for Kubernetes via Helm
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### Local Development
 
-### `npm start`
+1. Install dependencies:
+	```bash
+	npm install
+	```
+2. Start the development server:
+	```bash
+	npm start
+	```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Build for Production
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm run build
+```
+The optimized build will be in the `build/` folder.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Docker
 
-### `npm run build`
+You can build and run the app locally, or use the pre-built image from GitHub Container Registry.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Build Locally
+```bash
+docker build -t capannogourmet .
+docker run -p 80:80 capannogourmet
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Use the GitHub Container Registry Image
+```bash
+docker run -p 80:80 ghcr.io/unusualfor/capannogourmet
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Kubernetes & Helm
 
-### `npm run eject`
+Deploy with Helm:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+helm install capannogourmet ./helm/capannogourmet
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Edit `src/App.js` to change event details, menu, cocktails, and sections.
+- Update styles in `src/App.css` and `src/colors.css`.
+- Replace images in `public/` for your own theme.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License. See LICENSE file for details.
