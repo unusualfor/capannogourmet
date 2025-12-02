@@ -69,7 +69,7 @@ function Home() {
           <span className="col-he">Il Capanno</span><br/> 
           <span className="col-hi">Gourmet</span>
         </p>
-        <p className="subtitle">Home Restaurant Clandestino</p>
+        <p className="smaller">Home Restaurant Clandestino</p>
         <Fab className={`button fixed ${isAppearing ? 'appearing' : 'bouncing'} ${isVisible ? '' : 'hidden'}`} onClick={scroll}>
           <ArrowDownwardIcon />
         </Fab>
@@ -87,7 +87,7 @@ function Home() {
           Molto capanno gourmet.
         </p>
         <p>
-          🙆‍♀️🙆🙆‍♂️
+          🙆‍♀️🙆‍♂️🙆
         </p>
       </section>
 
@@ -146,7 +146,7 @@ function Home() {
           📍 Casa di Fofi
         </p>
         <p>
-          Dress code: Vestiti comodi, elastico in vita consigliato
+         <span className="smaller">Dress code: Vestiti comodi, elastico in vita consigliato</span>
         </p>
       </section>
 
@@ -187,7 +187,7 @@ function Home() {
           <div className="menu-course">
             <h2>Dialogo tra Tradizione e Redenzione, Bis di Primi Natalizi</h2>
             <div className="menu-subitem">
-              <span className="menu-dish">I. Gnocco della Foresta: Piccole nuvole di Solanum tuberosum, avvolte in ragù di proteina vegetale fermentata, in omaggio alle scelte etiche dello Chef</span>
+              <span className="menu-dish">I. Gnocco della Foresta: Piccole nuvole di Solanum tuberosum, avvolte in ragù di proteina vegetale fermentata, in omaggio alle scelte etiche degli chef</span>
               <span className="menu-desc">(gnocchetti al ragù di tempeh — sì, è buono, fidati)</span>
             </div>
             <div className="menu-subitem">
@@ -210,11 +210,16 @@ function Home() {
             </div>
             <div className="menu-subitem">
               <span className="menu-dish">L'Ammazzacaffè del Drago</span>
-              <span className="menu-desc">(Selezione a discrezione dello Chef. Dovrebbe esserci ancora del Luigino di Deiv dall'anno scorso)</span>
+              <span className="menu-desc">(Selezione a discrezione degli chef. Dovrebbe esserci ancora del Luigino di Deiv dall'anno scorso)</span>
             </div>
           </div>
         </div>
-        <p>Menu soggetto a variazioni basate sull'umore dello Chef, disponibilità degli ingredienti, e livello di sopportazione del Fonico.</p>
+      </section>
+
+      {/* SEZIONE 8A: Note sul Menu */}
+      <section className="fullscreen anchor c8 notes">
+        <p className="smaller">Note sul Menu</p>
+        <p>Menu soggetto a variazioni basate sull'umore degli chef, disponibilità degli ingredienti, e livello di sopportazione del Fonico.</p>
       </section>
 
       {/* SEZIONE 8B: Cocktail List */}
@@ -228,7 +233,7 @@ function Home() {
           </div>
           <div className="menu-subitem">
             <span className="menu-dish">La Fefa va in Giappone</span>
-            <span className="menu-desc">Tonica, matcha, essenza di ferie</span>
+            <span className="menu-desc">Tonica, matcha, Japanese gin, essenza di ferie</span>
           </div>          
           <div className="menu-subitem">
             <span className="menu-dish">Rosa del Pompelmo Errante</span>
@@ -236,7 +241,7 @@ function Home() {
           </div>
           <div className="menu-subitem">
             <span className="menu-dish">Il Ginepro Redento</span>
-            <span className="menu-desc">London Dry, tonica, preghiere</span>
+            <span className="menu-desc">London Dry Gin, tonica, preghiere</span>
           </div>
         </div>
         <div className="menu-course">
@@ -258,37 +263,51 @@ function Home() {
             <span className="menu-desc">Equilibrio. Potenza. Conseguenze.</span>
           </div>          
         </div>
+      </section>
+      
+      {/* SEZIONE 8C: Intrattenimento */}
+      <section className="fullscreen anchor c8 entertainment">
+        <p className="smaller">Intrattenimento</p>
         <p>Durante la serata sarà disponibile la simulazione storica di Pro Evolution Soccer — Naples Edition su hardware Sony di seconda generazione emulato.</p>
-        <p>Formazioni taroccate, Fofi fortissimo ma con 1/99 al tiro. Master League infinita. Nessun salvataggio garantito.</p>
+        <p>Formazioni taroccate, Fofi fortissimo ma con 1/99 al tiro. Cori in napoletano. Nessun salvataggio garantito.</p>
       </section>
 
       {/* SEZIONE 9: Recensioni */}
       <section className="fullscreen anchor c9 recensioni">
         <p className="col-ei">Dicono di noi</p>
-        
+
+        <div className="review">
+          <p className="review-text">
+            "Il fonico mi ha spiegato l'alveolatura per 40 minuti. Ho pianto. È stato bello. Tornerei dal Portogallo apposta per rifarlo."
+          </p>
+          <p className="review-author">— Marco F., Coimbra</p>
+          <p className="stars">⭐⭐⭐⭐</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
+            "In una sola serata ho mangiato, bevuto, riso, giocato a calcio, uno chef mi ha ubriacato e l'altro mi ha sottomesso. Un'altra commensale infermiera in smonto mi ha assistito e ho passato il resto della serata a dormire. ***** *** che serata. (EDIT: la volta prima mi si è anche rotto il cellulare, che serata.)"
+          </p>
+          <p className="review-author">Autore sconosciuto — Location rilevata Pesaro</p>
+          <p className="stars">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
+            "Non ho ancora capito perchè il ristorante sia itinerante, ogni tanto a Faenza e ogni tanto a Forlì. Comunque il cibo è buono e gli chef simpatici, anche se un po' cringe. Bella anche la proiezione sui funghi."
+          </p>
+          <p className="review-author">Davide — Santa Giustina (RN)</p>
+          <p className="stars">⭐⭐⭐</p>
+        </div>
+
         <div className="review">
           <p className="review-text">
             "Potrei anche mangiare per terra in un ristorante del genere"
           </p>
-          <p className="review-author">— 🐕 Bau, Cliente Peloso Verificato</p>
+          <p className="review-author">— 🐕 Connie, Il cane di Fofi e Fefa</p>
           <p className="stars">⭐⭐⭐⭐⭐</p>
         </div>
 
-        <div className="review">
-          <p className="review-text">
-            "Il fonico mi ha spiegato l'impiattamento per 40 minuti. Ho pianto."
-          </p>
-          <p className="review-author">— Marco T., Sopravvissuto</p>
-          <p className="stars">⭐⭐⭐⭐⭐</p>
-        </div>
-
-        <div className="review">
-          <p className="review-text">
-            "Ho prenotato 6 mesi fa. Ancora non so dove sia."
-          </p>
-          <p className="review-author">— Location Segreta Enjoyer</p>
-          <p className="stars">⭐</p>
-        </div>
       </section>
 
       {/* SEZIONE 10: Chiusura */}
