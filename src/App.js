@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Mail from './Mail.js';
 import Users from './Users.js';
 import { BrowserRouter, Outlet, Routes, Route } from 'react-router-dom';
 import { Fab } from '@mui/material';
