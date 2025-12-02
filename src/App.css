@@ -66,20 +66,25 @@
 }
 
 @keyframes appear {
-  0% {
-    opacity: 0;
-    transform: scale(0.1);
-  }
-  95% {
-    opacity: 0;
-    transform: scale(0.1);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
+.noi {
+    background-image: url("../public/noi.png");
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
 .address {
   font-size: 6vmin;
 }

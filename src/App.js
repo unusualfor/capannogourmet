@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import Mail from './Mail.js';
 import Users from './Users.js';
 import { BrowserRouter, Outlet, Routes, Route } from 'react-router-dom';
 import { Fab } from '@mui/material';
@@ -311,7 +312,7 @@ function Home() {
 
       {/* SEZIONE 10: Chiusura */}
       <section className="fullscreen anchor c10 noi">
-        <p className="col-ei">Ci vediamo al Capanno</p>
+        <p className="smaller">Ci vediamo al Capanno</p>
         <p>🐉🎄🐉</p>
       </section>
     </div>
