@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "capannogourmet.fullname" . }}
+  labels:
+    app: {{ include "capannogourmet.name" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "capannogourmet.name" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "capannogourmet.name" . }}
+    spec:
+      containers:
+        - name: capannogourmet
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - containerPort: 80
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
