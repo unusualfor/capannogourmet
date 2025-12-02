@@ -7,7 +7,7 @@ function Users() {
   const { id } = useParams();
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch(`https://51.75.16.232:8087/api/draghi`)
+    fetch(`https://francescoforesta.com:8087/api/draghi`)
       .then((res) => res.json())
       .then((data) => {
         setUsers(data);
