@@ -255,13 +255,25 @@ function Home() {
           </div>
           <div className="menu-subitem">
             <span className="menu-dish">L'Americano a Forlì</span>
-            <span className="menu-desc">Bitter, Vermouth, Soda, indecisione</span>
+            <span className="menu-desc">Bitter, Vermouth, Soda, sentore di Romagna, indecisione</span>
           </div>          
           <div className="menu-subitem">
-            <span className="menu-dish">Mai più, Hendrics ovvero Il Negroni</span>
-            <span className="menu-desc">Equilibrio. Potenza. Conseguenze.</span>
+            <span className="menu-dish">Never again, Hendrics ovvero Il Negroni</span>
+            <span className="menu-desc">Bitter, Gin, Vermouth: Equilibrio, Potenza, Conseguenze.</span>
           </div>          
         </div>
+        <div className="menu-course">
+          <h2>Fuori Menù - soggetto a disponibilità di un certo commensale</h2>
+          <div className="menu-subitem">
+            <span className="menu-dish">Serenità apparente, ovvero A cazzo rapido</span>
+            <span className="menu-desc">Bourbon americano, camomilla, illusioni</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="fullscreen anchor c8 notes">
+        <p className="smaller">Note sui Cocktails</p>
+        <p>Per le persone astemie o gestanti sono state previste variazioni degli stessi drink sopra citati. Perchè vi vogliamo bene così.</p>
       </section>
       
       {/* SEZIONE 8C: Intrattenimento */}
