@@ -68,7 +68,7 @@ function Home() {
           <span className="col-he">Il Capanno</span><br/> 
           <span className="col-hi">Gourmet</span>
         </p>
-        <p className="smaller">Home Restaurant Clandestino</p>
+        <p className="smaller">Home Restaurant Itinerante</p>
         <Fab className={`button fixed ${isAppearing ? 'appearing' : 'bouncing'} ${isVisible ? '' : 'hidden'}`} onClick={scroll}>
           <ArrowDownwardIcon />
         </Fab>
@@ -122,7 +122,7 @@ function Home() {
       {/* SEZIONE 5: L'invito */}
       <section className="fullscreen anchor c5">
         <p>
-          Siete cordialmente invitati
+          Gli chef vi invitano cordialmente
         </p>
         <p>
           all'esclusivo <span className="col-ei">Pranzo di Natale 2025</span>
@@ -299,7 +299,7 @@ function Home() {
           <p className="review-text">
             "In una sola serata ho mangiato, bevuto, riso, giocato a calcio, uno chef mi ha ubriacato e l'altro mi ha sottomesso. Un'altra commensale infermiera in smonto mi ha assistito e ho passato il resto della serata a dormire. ***** *** che serata. (EDIT: la volta prima mi si è anche rotto il cellulare, che serata.)"
           </p>
-          <p className="review-author">Autore sconosciuto — Location rilevata Pesaro</p>
+          <p className="review-author">Autore sconosciuto — Pesaro</p>
           <p className="stars">⭐⭐⭐⭐⭐</p>
         </div>
 

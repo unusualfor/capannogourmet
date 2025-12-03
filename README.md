@@ -1,13 +1,13 @@
 
 # Il Capanno Gourmet
 
-**Il Capanno Gourmet** is a playful, themed web app for a home restaurant event, built with React. It features a multi-section landing page, interactive RSVP, a structured menu, and a cocktail list, all styled for a unique and fun experience.
+**Il Capanno Gourmet** is a playful, themed web app for a home restaurant event, built with React. It features a multi-section landing page, interactive RSVP (currently disabled), a structured menu, and a cocktail list, all styled for a unique and fun experience.
 
 ## Features
 
 - Modern React single-page application
 - Themed sections: restaurant intro, chef bios, event invitation, menu, cocktails, reviews, and RSVP
-- Interactive RSVP and user list (with backend API integration)
+- Interactive RSVP and user list (with backend API integration) - this is currently disabled, but logic is still available
 - Custom styles and playful design
 - Containerized with Docker and ready for Kubernetes via Helm
 
