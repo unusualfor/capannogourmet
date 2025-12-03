@@ -198,10 +198,10 @@ function Home() {
             <h2>Autunno Tardivo, Dolce</h2>
             <div className="menu-subitem">
               <span className="menu-dish">Crumble di cereali alternativi in destrutturazione, caco maturo con sussurro di cacao, mousse di latte ovino addolcito, lacrime d'acero canadese</span>
-              <span className="menu-desc">(biscotti senza glutine sbriciolati, caco, ricotta di pecora dolce, sciroppo d'acero)</span>
+              <span className="menu-desc">(biscotti senza glutine sbriciolati, caco mescolato a cacao, ricotta di pecora dolce, sciroppo d'acero)</span>
             </div>
           </div>
-          <div className="menu-course">
+          <div className="menu-course"> /* TODO: sistemare centrato */
             <h2>L'odore della malinconia</h2>
             <div className="menu-subitem">
               <span className="menu-dish">Estratto di Coffea Arabica Monoorigine Colombia o Brasile, servito nella sua forma più onesta ed espressa</span>
@@ -227,38 +227,38 @@ function Home() {
         <div className="menu-course">
           <h2>Selezione Agrumata</h2>
           <div className="menu-subitem">
-            <span className="menu-dish">Essenza Nostalgica di Chinotto</span>
-            <span className="menu-desc">Tonica, limone, ricordi d'infanzia</span>
+            <span className="menu-dish">Nostalgia di Chinotto, ovvero Tranquilla Sara prima o poi tornerai a bere</span>
+            <span className="menu-desc">Tonica, limone, ricordi di giovinezza</span>
           </div>
           <div className="menu-subitem">
             <span className="menu-dish">La Fefa va in Giappone</span>
             <span className="menu-desc">Tonica, matcha, Japanese gin, essenza di ferie</span>
           </div>          
           <div className="menu-subitem">
-            <span className="menu-dish">Rosa del Pompelmo Errante</span>
+            <span className="menu-dish">Il viaggio del Pompelmo Errante</span>
             <span className="menu-desc">Tonica rosa, pompelmo, dubbi esistenziali</span>
           </div>
           <div className="menu-subitem">
-            <span className="menu-dish">Il Ginepro Redento</span>
-            <span className="menu-desc">London Dry Gin, tonica, preghiere</span>
+            <span className="menu-dish">Mind the gap, Domesh</span>
+            <span className="menu-desc">London Dry Gin, tonica, nebbia di Londra distillata (c'è davvero)</span>
           </div>
         </div>
         <div className="menu-course">
           <h2>Selezione Amara</h2>
           <div className="menu-subitem">
-            <span className="menu-dish">Garibaldi dei Mille</span>
-            <span className="menu-desc">Bitter, spremuta di arancia, unità nazionale</span>
+            <span className="menu-dish">Garibaldi a Ferrara per i buskers</span>
+            <span className="menu-desc">Bitter, cacao, spremuta di arancia, unità nazionale</span>
           </div>
           <div className="menu-subitem">
-            <span className="menu-dish">Il Fusettone della Nonna</span>
+            <span className="menu-dish">Poteva andare meglio, ma poteva anche andare peggio</span>
             <span className="menu-desc">Bitter, tonica al pompelmo, segreti di famiglia</span>
           </div>
           <div className="menu-subitem">
             <span className="menu-dish">L'Americano a Forlì</span>
-            <span className="menu-desc">Per chi non sa decidersi</span>
+            <span className="menu-desc">Bitter, Vermouth, Soda, indecisione</span>
           </div>          
           <div className="menu-subitem">
-            <span className="menu-dish">Negroni del Capanno</span>
+            <span className="menu-dish">Mai più, Hendrics ovvero Il Negroni</span>
             <span className="menu-desc">Equilibrio. Potenza. Conseguenze.</span>
           </div>          
         </div>
