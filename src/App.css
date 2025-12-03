@@ -1,15 +1,82 @@
+/* Header title size */
+.header-content {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 700;
+}
+
+/* Intro section font size */
+.fullscreen.anchor.c2 p {
+  font-size: clamp(1.2rem, 3vw, 2.2rem);
+}
+
+/* Chef section font sizes */
+.chef-title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 600;
+}
+.bio {
+  font-size: clamp(1.1rem, 2.5vw, 1.7rem);
+}
+
+/* Dress code smaller */
+.fullscreen.anchor.c6 .smaller {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+/* Menu course heading larger than items */
+.menu-course h2 {
+  font-size: clamp(1.7rem, 4vw, 2.7rem);
+  margin-bottom: 0.7em;
+}
+
+/* Reviews larger */
+.review-text {
+  font-size: clamp(1.1rem, 2.5vw, 1.7rem);
+}
+.review-author {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-style: italic;
+}
+.stars {
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
+}
 .menu-subitem {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 1.5em;
+  text-align: center;
 }
 .menu-dish {
   font-weight: bold;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
 }
 .menu-desc {
   margin-top: 0.3em;
   font-style: italic;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(0.9rem, 2vw, 1.5rem);
+}
+
+/* Centered variant for specific courses */
+.menu-course.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-course.centered .menu-subitem {
+  align-items: center;
+  text-align: center;
+  max-width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-course.centered .menu-dish,
+.menu-course.centered .menu-desc {
+  width: 100%;
 }
 @import url('./colors.css');
 
@@ -35,8 +102,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2.5vmin;
+  font-size: clamp(1rem, 2.5vmin, 2rem);
   color: var(--col-dr);
+}
+/* Boost font size for mobile screens */
+@media (max-width: 600px) {
+  .menu-dish {
+    font-size: clamp(1.2rem, 5vw, 2.5rem);
+  }
+  .menu-desc {
+    font-size: clamp(1rem, 4vw, 2rem);
+  }
+  .App {
+    font-size: clamp(1.1rem, 4vmin, 2.2rem);
+  }
 }
 
 .smaller {

@@ -201,7 +201,7 @@ function Home() {
               <span className="menu-desc">(biscotti senza glutine sbriciolati, caco mescolato a cacao, ricotta di pecora dolce, sciroppo d'acero)</span>
             </div>
           </div>
-          <div className="menu-course"> /* TODO: sistemare centrato */
+          <div className="menu-course centered">
             <h2>L'odore della malinconia</h2>
             <div className="menu-subitem">
               <span className="menu-dish">Estratto di Coffea Arabica Monoorigine Colombia o Brasile, servito nella sua forma più onesta ed espressa</span>
