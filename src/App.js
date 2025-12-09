@@ -130,7 +130,14 @@ function Home() {
         <p>
           del ristorante Capanno Gourmet
         </p>
-        <img src="./gif-cucina.gif" alt="Gif cucina disastrosa" />
+        <video
+          src="/lobster-writing.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ maxWidth: '100%', borderRadius: '16px', marginTop: '1em' }}
+        />
       </section>
 
       {/* SEZIONE 6: Data e ora */}
@@ -164,6 +171,7 @@ function Home() {
       {/* SEZIONE 8: Il Menu (teaser) */}
       <section className="fullscreen anchor c8">
         <p className="col-ei">Il Menu - Edizione Limitata MMXXV</p>
+        <img src="./gif-cucina.gif" alt="Gif cucina disastrosa" />
         <div>
           <div className="menu-course">
             <h2>Radici e Memorie, composizione vegetale di benvenuto</h2>
