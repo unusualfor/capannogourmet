@@ -74,16 +74,16 @@ function Edizione2026() {
       {/* SEZIONE 6: Data e ora */}
       <section className="fullscreen anchor c6">
         <p>
-          📅 17-07-26
+          📅 Domenica 17 Maggio, 2026
         </p>
         <p>
-          🕖 12:30 PM
+          🕖 Ore 12:30 PM
         </p>
         <p>
           📍 Casa di Hendi e Sara
         </p>
         <p>
-          <span className="smaller">Dress code: Vestiti sporchi, ma comodi, elastico in vita consigliato</span>
+          <span className="smaller">Dress code: Vestiti sporchi ma comodi, elastico in vita consigliato</span>
         </p>
       </section>
 

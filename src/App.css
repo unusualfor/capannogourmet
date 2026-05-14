@@ -172,12 +172,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.6rem;
+}
+
+.App-header p {
+  margin: 0;
 }
 
 .fullscreen {
-  min-height: 80vh;
+  min-height: 55vh;
   max-width: 100vmin;
   margin: 0 4vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6vh 0;
+  padding-top: max(6vh, 4.5rem);
+  box-sizing: border-box;
 }
 
 .App {
