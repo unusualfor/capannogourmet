@@ -139,14 +139,14 @@ function Edizione2025() {
               <span className="menu-desc">(cappelletti in brodo — non si scherza)</span>
             </div>
           </div>
-          <div className="menu-course">
+          <div className="menu-course menu-category-break">
             <h2>Autunno Tardivo, Dolce</h2>
             <div className="menu-subitem">
               <span className="menu-dish">Crumble di cereali alternativi in destrutturazione, caco maturo con sussurro di cacao, mousse di latte ovino addolcito, lacrime d'acero canadese</span>
               <span className="menu-desc">(biscotti senza glutine sbriciolati, caco mescolato a cacao, ricotta di pecora dolce, sciroppo d'acero)</span>
             </div>
           </div>
-          <div className="menu-course centered">
+          <div className="menu-course centered menu-category-break">
             <h2>L'odore della malinconia</h2>
             <div className="menu-subitem">
               <span className="menu-dish">Estratto di Coffea Arabica Monoorigine Colombia o Brasile, servito nella sua forma più onesta ed espressa</span>

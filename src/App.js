@@ -2,7 +2,8 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import Users from './Users.js';
 import Edizione2025 from './Edizione2025.js';
-import { BrowserRouter, Outlet, Routes, Route } from 'react-router-dom';
+import Edizione2026 from './Edizione2026.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Fab } from '@mui/material';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
@@ -98,24 +99,7 @@ function Home() {
       {/* ===================== SECONDA EDIZIONE ===================== */}
       {activeEdition === 0 && (
         <div key="new" className={`edition-slide${slideDir ? ` slide-from-${slideDir}` : ''}`}>
-          <header className="App-header fullscreen anchor c1">
-            <p className="header-content">
-              <span className="col-he">Il Capanno</span><br/>
-              <span className="col-hi">Gourmet</span>
-            </p>
-            <p className="smaller">Home Restaurant Itinerante</p>
-          </header>
-
-          {/* TODO: inserisci qui le sezioni della seconda edizione */}
-          <section className="fullscreen anchor c2">
-            <p>
-              La seconda edizione sta arrivando.
-            </p>
-            <p>
-              🐉🍴🐉
-            </p>
-            <Outlet />
-          </section>
+          <Edizione2026 />
         </div>
       )}
 

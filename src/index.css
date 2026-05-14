@@ -1,8 +1,9 @@
-@import "@fontsource/playwrite-us-trad-guides/index.css";
+@import "@fontsource/montserrat/300.css";
 
 body {
   margin: 0;
-  font-family: 'Playwrite US Trad Guides', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

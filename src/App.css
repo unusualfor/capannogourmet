@@ -96,9 +96,21 @@
   font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
+/* General spacing between courses */
+.menu-course {
+  margin-bottom: 2em;
+}
+
+/* Extra space + divider between course categories (antipasti → secondi → dolce) */
+.menu-category-break {
+  margin-top: 3.5em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 /* Menu course heading larger than items */
 .menu-course h2 {
-  font-size: clamp(1.7rem, 4vw, 2.7rem);
+  font-size: clamp(1.2rem, 3vw, 2rem);
   margin-bottom: 0.7em;
 }
 
@@ -124,14 +136,14 @@
   font-weight: bold;
   width: 100%;
   text-align: center;
-  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+  font-size: clamp(1rem, 2vw, 1.6rem);
 }
 .menu-desc {
   margin-top: 0.3em;
   font-style: italic;
   width: 100%;
   text-align: center;
-  font-size: clamp(0.9rem, 2vw, 1.5rem);
+  font-size: clamp(0.85rem, 1.5vw, 1.2rem);
 }
 
 /* Centered variant for specific courses */
@@ -163,7 +175,7 @@
 }
 
 .fullscreen {
-  min-height: 60vh;
+  min-height: 80vh;
   max-width: 100vmin;
   margin: 0 4vmin;
 }
@@ -181,18 +193,21 @@
 /* Boost font size for mobile screens */
 @media (max-width: 600px) {
   .menu-dish {
-    font-size: clamp(1.2rem, 5vw, 2.5rem);
+    font-size: clamp(1rem, 4.5vw, 1.5rem);
   }
   .menu-desc {
-    font-size: clamp(1rem, 4vw, 2rem);
+    font-size: clamp(0.85rem, 3.5vw, 1.2rem);
+  }
+  .menu-course h2 {
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
   }
   .App {
-    font-size: clamp(1.1rem, 4vmin, 2.2rem);
+    font-size: clamp(1rem, 3.5vmin, 1.8rem);
   }
 }
 
 .smaller {
-  font-size: 5vmin;
+  font-size: clamp(0.85rem, 3.5vmin, 1.3rem);
 }
 
 .birds {
@@ -238,7 +253,7 @@
     color: #fff;
 }
 .address {
-  font-size: 6vmin;
+  font-size: clamp(1rem, 4vmin, 1.6rem);
 }
 
 a {
@@ -251,7 +266,7 @@ p.users {
 }
 .Mui-checked, .Mui-checkbox-root, .MuiSvgIcon-root {
   color: var(--col-dr)!important;
-  font-size: 8vmin;
+  font-size: clamp(1.5rem, 5vmin, 2.5rem);
 }
 .button {
   background: var(--col-el)!important;
@@ -305,11 +320,13 @@ p.users {
 }
 
 .notes {
-  width: 300px!important;
+  width: min(300px, 90vw)!important;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .noi {
-  background-image: url('/public/noi.png');
+  background-image: url('/public/pustaz.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
