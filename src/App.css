@@ -347,6 +347,11 @@ p.users {
   position: relative;
 }
 
+/* Foto edizione Agosto 2026 */
+.noi.noi-ago26 {
+  background-image: url("../public/estate2026.png");
+}
+
 .noi .col-ei {
   position: absolute;
   left: 50%;
