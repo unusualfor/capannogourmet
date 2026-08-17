@@ -39,7 +39,7 @@ function EdizioneAgosto2026() {
           di Naples.
         </p>
         <p className="bio">
-          Quest'anno ospita in casa propria. Ha già spostato tre volte il tavolo.
+          Gli ospiti hanno chiesto aria condizionata, quindi ospita in casa propria. 
         </p>
       </section>
 
@@ -86,7 +86,7 @@ function EdizioneAgosto2026() {
           <span className="smaller">Ai fornelli (o a quel che ne resta con questo caldo): Domesh e Fofi</span>
         </p>
         <p>
-          <span className="smaller">Dress code: Lino, cotone, rassegnazione. Elastico in vita sempre consigliato</span>
+          <span className="smaller">Dress code: Lino, cotone, rassegnazione. Consigliata maglia del Naples. Elastico in vita sempre consigliato</span>
         </p>
       </section>
 
@@ -105,7 +105,7 @@ function EdizioneAgosto2026() {
       {/* SEZIONE 8: Il Menu */}
       <section className="fullscreen anchor c8">
         <p className="col-ei">Il Menu — Edizione Estiva MMXXVI</p>
-        <img src="./oven.gif" alt="Gif cucina disastrosa" style={{ maxWidth: '100%', borderRadius: '12px', marginTop: '1em' }} />
+        <img src="./bear.gif" alt="Gif cucina disastrosa" style={{ maxWidth: '100%', borderRadius: '12px', marginTop: '1em' }} />
         <div>
 
           {/* PRINCIPIO — I FREDDI */}
@@ -113,14 +113,14 @@ function EdizioneAgosto2026() {
             <h2>Composizione Erbacea con Cucurbitacea Solstiziale e Latticino Ellenico in Salamoia</h2>
             <div className="menu-subitem">
               <span className="menu-dish">
-                Foglie pungenti di rucola raccolte al mattino, cubi d'anguria
+                Foglie pungenti di spinacino raccolte al mattino, cubi d'anguria
                 recisi secondo geometria approssimativa, e formaggio greco
                 conservato nella sua acqua salata secondo usanza millenaria.
                 Croccantezza dichiarata in sede di presentazione e non garantita
                 oltre i venti minuti dal servizio
               </span>
               <span className="menu-desc">
-                (insalata con rucola, cocomero e feta — è fresca, è buona,
+                (insalata con spinacino, cocomero e feta — è fresca, è buona,
                 e se la lasci lì troppo diventa una zuppa. Mangiala subito)
               </span>
             </div>
@@ -138,7 +138,7 @@ function EdizioneAgosto2026() {
               <span className="menu-desc">
                 (bruschettine e mini freselle con pomodorini e olio pugliese DOCG —
                 sì, sappiamo che per l'olio la sigla giusta sarebbe un'altra.
-                No, non la cambiamo. È buono comunque)
+                No, non la cambiamo. È buono comunque. La D di DOCG sta per Domesh)
               </span>
             </div>
           </div>
@@ -182,12 +182,14 @@ function EdizioneAgosto2026() {
                 Purea di ceci secondo il disciplinare del Vicino Oriente,
                 elaborata dal Maestro Domesh con dosaggi che varia ogni volta
                 e non annota mai. Consistenza dichiarata "quella giusta",
-                parametro non misurabile con strumenti noti
+                parametro non misurabile con strumenti noti. Speriamo si dimentichi
+                di mettere l'aglio in polvere questa volta
               </span>
               <span className="menu-desc">
                 (hummus di Domesh — istituzione del Capanno. Ogni edizione
                 è diversa dalla precedente e ogni volta lui giura che è
-                la stessa ricetta)
+                la stessa ricetta. In compenso, ogni volta si propone di farlo
+                perchè deve finire la tahina)
               </span>
             </div>
           </div>
@@ -220,7 +222,8 @@ function EdizioneAgosto2026() {
               <span className="menu-desc">
                 (polpette di alghe e fritturine napoletane con maionese al
                 basilico — come la volta scorsa, perché la volta scorsa
-                sono sparite in undici minuti)
+                sono sparite in undici minuti, su richiesta fofi potrebbe servirle
+                con la maschera di Pulcinella)
               </span>
             </div>
           </div>
@@ -251,9 +254,8 @@ function EdizioneAgosto2026() {
                 Postazione in libera consultazione dove ogni commensale
                 compone la propria insalata di riso secondo coscienza:
                 riso basmati dai chicchi lunghi, ortaggi minuti, proteine
-                laccate a scelta tra salmone, pollo e tofu, fagioli di soia
-                acerbi nel loro baccello, e un assortimento di salse
-                dalle intenzioni non dichiarate
+                laccate, fagioli di soia acerbi nel loro baccello, 
+                e un assortimento di salse dalle intenzioni non dichiarate
               </span>
               <span className="menu-desc">
                 (angolo crea-la-tua-insalata-di-riso: basmati, verdurine,
@@ -355,7 +357,7 @@ function EdizioneAgosto2026() {
           </div>
 
           <div className="menu-subitem">
-            <span className="menu-dish">Dado <s>si sveglia</s> sposa</span>
+            <span className="menu-dish">Dado si <s>sveglia</s> sposa</span>
             <span className="menu-desc">Base seconda, lime, ginger beer, menta — il più speziato. Il titolo è stato corretto in corsa dagli eventi</span>
           </div>
 
@@ -408,7 +410,7 @@ function EdizioneAgosto2026() {
           <p className="review-text">
             "L'angolo dell'insalata di riso self-service ha generato quattordici combinazioni diverse, di cui due commestibili. Ho documentato tutto. Nessuno mi ha chiesto niente, ma ho documentato tutto."
           </p>
-          <p className="review-author">— L'Umarell Davide, consulente esterno</p>
+          <p className="review-author">— Umarell, consulente esterno</p>
           <p className="stars">⭐⭐⭐⭐⭐</p>
         </div>
 
