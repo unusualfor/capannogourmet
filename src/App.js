@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Users from './Users.js';
 import Edizione2025 from './Edizione2025.js';
 import Edizione2026 from './Edizione2026.js';
+import EdizioneAgosto2026 from './EdizioneAgosto2026.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Fab } from '@mui/material';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -21,7 +22,7 @@ function App() {
 
 function Home() {
 
-  const [activeEdition, setActiveEdition] = useState(0); // 0 = nuova, 1 = 2025
+  const [activeEdition, setActiveEdition] = useState(0); // 0 = agosto 2026, 1 = maggio 2026, 2 = 2025
   const [slideDir, setSlideDir] = useState(null);
   const [isAppearing, setIsAppearing] = useState(true);
   const [isVisible, setIsVisible] = useState(true);
@@ -78,11 +79,17 @@ function Home() {
           className={`edition-btn ${activeEdition === 0 ? 'active' : ''}`}
           onClick={() => switchEdition(0)}
         >
-          ✦ 2026
+          ✦ Ago '26
         </button>
         <button
           className={`edition-btn ${activeEdition === 1 ? 'active' : ''}`}
           onClick={() => switchEdition(1)}
+        >
+          Mag '26
+        </button>
+        <button
+          className={`edition-btn ${activeEdition === 2 ? 'active' : ''}`}
+          onClick={() => switchEdition(2)}
         >
           2025
         </button>
@@ -96,15 +103,22 @@ function Home() {
         <ArrowDownwardIcon />
       </Fab>
 
-      {/* ===================== SECONDA EDIZIONE ===================== */}
+      {/* ===================== EDIZIONE AGOSTO 2026 ===================== */}
       {activeEdition === 0 && (
-        <div key="new" className={`edition-slide${slideDir ? ` slide-from-${slideDir}` : ''}`}>
+        <div key="ago26" className={`edition-slide${slideDir ? ` slide-from-${slideDir}` : ''}`}>
+          <EdizioneAgosto2026 />
+        </div>
+      )}
+
+      {/* ===================== EDIZIONE MAGGIO 2026 ===================== */}
+      {activeEdition === 1 && (
+        <div key="mag26" className={`edition-slide${slideDir ? ` slide-from-${slideDir}` : ''}`}>
           <Edizione2026 />
         </div>
       )}
 
       {/* ===================== EDIZIONE 2025 ===================== */}
-      {activeEdition === 1 && (
+      {activeEdition === 2 && (
         <div key="2025" className={`edition-slide${slideDir ? ` slide-from-${slideDir}` : ''}`}>
           <Edizione2025 />
         </div>
