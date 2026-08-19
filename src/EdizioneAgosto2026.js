@@ -64,7 +64,7 @@ function EdizioneAgosto2026() {
           Gli chef vi invitano cordialmente
         </p>
         <p>
-          all'esclusiva <span className="col-ei">Cena del Solleone 2026</span>
+          all'esclusivo <span className="col-ei">Aperipranzo del Solleone 2026</span>
         </p>
         <p>
           del ristorante Capanno Gourmet
