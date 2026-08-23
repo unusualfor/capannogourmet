@@ -358,7 +358,7 @@ function EdizioneAgosto2026() {
 
           <div className="menu-subitem">
             <span className="menu-dish">Dado si <s>sveglia</s> sposa</span>
-            <span className="menu-desc">Base seconda, lime, ginger beer, menta — il più speziato. Il titolo è stato corretto in corsa dagli eventi</span>
+            <span className="menu-desc">Base seconda, lime, te oolong, menta — il più speziato. Il titolo è stato corretto in corsa dagli eventi</span>
           </div>
 
           <div className="menu-subitem">
