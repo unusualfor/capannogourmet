@@ -293,13 +293,14 @@ function EdizioneNatale2026() {
             <h2>Libagioni del Bancone di Forest</h2>
             <div className="menu-subitem">
               <span className="menu-dish">
-                Miscelazioni in fase di elaborazione presso il laboratorio
-                privato dello chef declassato. Composizione segreta, anche
-                per lui
+                Miscelazioni custodite sotto segreto di bancone e svelate
+                solo all'ultimo istante, come i regali sotto l'albero.
+                Si sconsiglia di scuoterle per indovinarne il contenuto
               </span>
               <span className="menu-desc">
-                (cocktail di Forest — la lista arriverà più sotto, appena
-                Forest smette di "studiarla" e la beve)
+                (cocktail di Forest — verranno svelati all'ultimo. Mi aspettavo
+                un paio di cose, poi mi sono trovato davanti a nove antipasti
+                e ora devo studiare di più)
               </span>
             </div>
           </div>
@@ -354,12 +355,17 @@ function EdizioneNatale2026() {
       <section className="fullscreen anchor c8 cocktails">
         <p className="col-ei">Cocktail List — Laboratorio Forest</p>
         <div className="menu-course">
-          <h2>Lavori in Corso</h2>
+          <h2>Rivelazione all'Ultimo Minuto</h2>
           <div className="menu-subitem">
-            <span className="menu-dish">Cocktail list ancora in fase di studio</span>
+            <span className="menu-dish">
+              La carta delle libagioni verrà svelata solo a ridosso del pranzo,
+              con la solennità di un'apertura di testamento. Fino ad allora:
+              mistero, attesa e qualche bottiglia che sparisce misteriosamente
+              dal mobile bar
+            </span>
             <span className="menu-desc">
-              (Forest sta testando le ricette. Una alla volta. Ripetutamente.
-              Verrà aggiornata appena è in grado di scriverla)
+              (mi aspettavo un paio di cose, poi mi sono trovato davanti a nove
+              antipasti e ora devo studiare di più)
             </span>
           </div>
         </div>
