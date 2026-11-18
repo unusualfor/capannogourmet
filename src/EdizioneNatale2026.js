@@ -61,6 +61,7 @@ function EdizioneNatale2026() {
       {/* SEZIONE 5: I padroni di casa */}
       <section className="fullscreen anchor c5">
         <p className="chef-title">Chef Ospiti <span className="col-hi">Dado</span> & <span className="col-he">Luci</span></p>
+        <img src="./natale2026-chef.webp" alt="I tre chef in cucina" style={{ maxWidth: '100%', borderRadius: '12px', marginTop: '1em' }} />
         <p>🏠</p>
         <p className="bio">
           Freschi di casa nuova, aprono le porte al Capanno, che per
@@ -133,7 +134,7 @@ function EdizioneNatale2026() {
       {/* SEZIONE 9: Il Menu */}
       <section className="fullscreen anchor c8">
         <p className="col-ei">Il Menu — Edizione Natalizia MMXXVI</p>
-        <img src="./gif-cucina.gif" alt="Gif cucina disastrosa" style={{ maxWidth: '100%', borderRadius: '12px', marginTop: '1em' }} />
+        <img src="./cupboard.gif" alt="Gif dispensa saccheggiata" style={{ maxWidth: '100%', borderRadius: '12px', marginTop: '1em' }} />
         <div>
 
           {/* ANTIPASTI */}
@@ -418,7 +419,7 @@ function EdizioneNatale2026() {
       </section>
 
       {/* SEZIONE 11: Chiusura */}
-      <section className="fullscreen anchor c10 noi">
+      <section className="fullscreen anchor c10 noi noi-nat26">
         <p className="smaller">Ci vediamo da Dado e Luci</p>
         <p>🎄🎁🎄</p>
       </section>
