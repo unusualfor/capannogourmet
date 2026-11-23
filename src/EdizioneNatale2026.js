@@ -299,9 +299,9 @@ function EdizioneNatale2026() {
                 Si sconsiglia di scuoterle per indovinarne il contenuto
               </span>
               <span className="menu-desc">
-                (cocktail di Forest — verranno svelati all'ultimo. Mi aspettavo
-                un paio di cose, poi mi sono trovato davanti a nove antipasti
-                e ora devo studiare di più)
+                (cocktail di Forest — finalmente svelati: otto drink, carta
+                completa più sotto. Mi aspettavo un paio di cose, poi mi sono
+                trovato davanti a nove antipasti e ho dovuto studiare di più)
               </span>
             </div>
           </div>
@@ -355,21 +355,75 @@ function EdizioneNatale2026() {
       {/* SEZIONE 9B: Cocktail List */}
       <section className="fullscreen anchor c8 cocktails">
         <p className="col-ei">Cocktail List — Laboratorio Forest</p>
+        <p className="smaller">Otto ricette, quattro basi, niente ginger ale</p>
+
         <div className="menu-course">
-          <h2>Rivelazione all'Ultimo Minuto</h2>
+          <h2>Ieri</h2>
           <div className="menu-subitem">
-            <span className="menu-dish">
-              La carta delle libagioni verrà svelata solo a ridosso del pranzo,
-              con la solennità di un'apertura di testamento. Fino ad allora:
-              mistero, attesa e qualche bottiglia che sparisce misteriosamente
-              dal mobile bar
-            </span>
-            <span className="menu-desc">
-              (mi aspettavo un paio di cose, poi mi sono trovato davanti a nove
-              antipasti e ora devo studiare di più)
-            </span>
+            <span className="menu-desc">Sapori passati, mescolati a note nuove che ricordano il tempo che passa</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">07 ● Un pomeriggio d'autunno in spiaggia a Cervia</span>
+            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco come la riviera a fine ottobre: ombrelloni chiusi, nebbia, un cane, un signore col metal detector. E Dome e Fofi a inaugurare un furgone. Malinconia, con ghiaccio</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">08 ● Never again trimone</span>
+            <span className="menu-desc">Negroni EVO con Campari, vermouth rosso infuso all'Earl Grey Çaykur e scorza d'arancia — l'immancabile tradizione, con un twist pugliese. Se Hendi mi procura un goccio di olio di Pesaro, arriva anche la versione marchigiana</span>
           </div>
         </div>
+
+        <div className="menu-course">
+          <h2>Domani</h2>
+          <div className="menu-subitem">
+            <span className="menu-desc">Le sfide che arrivano, senza sapere ancora se saremo all'altezza</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">01 ● Quello che prenderebbe Merkoh</span>
+            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Sa di attesa</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">02 ○ Al contadino Dome non far sapere</span>
+            <span className="menu-desc">Pera arrostita, tonica delicata e limone — il proverbio parlava di formaggio e pere. Qui il formaggio non c'è: vedremo se sarà comunque una bella rivelazione</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">03 ○ No, mango oggi</span>
+            <span className="menu-desc">Pera arrostita, zenzero fresco, limone e soda — risposta (cringe) ufficiale a "e quindi ora posso rifarti un cocktail alcolico?". Per le amiche in attesa, per chi non beve, e per Dado. Lo zenzero aiuta a digerire. Plot twist: il mango non c'è, almeno non qui</span>
+          </div>
+        </div>
+
+        <div className="menu-course">
+          <h2>Oggi</h2>
+          <div className="menu-subitem">
+            <span className="menu-desc">Quello che siamo, quello che siamo diventati, e perché</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">04 ○ La scelta di Dado</span>
+            <span className="menu-desc">Mango leggermente caramellato, tonica e lime — da sposato, Dado non sceglie più da solo: questo glielo lascio come piccola libertà. Per i reclami sul menu, il referente resta comunque lui</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">05 ○ Un altro posto esotico che Sara e Hendi non vedranno quest'inverno</span>
+            <span className="menu-desc">Mango, tè verde ananas-limone-zenzero, lime e soda — il seguito dell'ultima edizione. Ancora niente viaggio zaino in spalla: la saga continua, le ferie no. Con Lendi, l'esotico arriva nel bicchiere</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">06 ● Mango fizz</span>
+            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Fofi è finita qui</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="fullscreen anchor c8 notes">
+        <p className="smaller">Note sul Bere</p>
+        <p>● alcolico, ○ analcolico. Nessuno vi giudicherà per la scelta, ma Forest prenderà nota.</p>
+        <p>Il gin è stato lavato nell'olio extravergine, congelato e filtrato. No, non è unto. Sì, Fofi ci ha pensato per settimane. Sì, di nuovo.</p>
+        <p>I tè contengono caffeina: chi si addormenta dopo le crespelle non può dare la colpa ai cocktail. Per eventuali allergeni nelle toniche chiedere al banco.</p>
       </section>
 
       {/* SEZIONE 10: Recensioni */}
@@ -398,6 +452,14 @@ function EdizioneNatale2026() {
           </p>
           <p className="review-author">— Comitato Internazionale per la Tutela del Pane di Hendi (sezione Romagna)</p>
           <p className="stars">🍞🍞🍞🍞🍞</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
+            "Non so se sia più innamorato della pagnotta che è suo figlio o della pagnotta di pane!"
+          </p>
+          <p className="review-author">— Sara Arlati, compagna di Hendi e madre di Lendi</p>
+          <p className="stars">💔💔💔💔💔</p>
         </div>
 
         <div className="review">
