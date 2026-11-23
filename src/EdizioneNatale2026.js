@@ -402,6 +402,14 @@ function EdizioneNatale2026() {
 
         <div className="review">
           <p className="review-text">
+            "Non so se sia più innamorato della pagnotta che è suo figlio o della pagnotta di pane!"
+          </p>
+          <p className="review-author">— Sara Arlati</p>
+          <p className="stars">💔💔💔💔💔</p>
+        </div>
+
+        <div className="review">
+          <p className="review-text">
             "Ci sarò sicuro stavolta."
           </p>
           <p className="review-author">— Merkoh, recensione copiata e incollata identica dalle edizioni 2025, Maggio 2026 e Agosto 2026</p>
