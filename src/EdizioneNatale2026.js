@@ -299,9 +299,9 @@ function EdizioneNatale2026() {
                 Si sconsiglia di scuoterle per indovinarne il contenuto
               </span>
               <span className="menu-desc">
-                (cocktail di Forest — verranno svelati all'ultimo. Mi aspettavo
-                un paio di cose, poi mi sono trovato davanti a nove antipasti
-                e ora devo studiare di più)
+                (cocktail di Forest — finalmente svelati: otto drink, carta
+                completa più sotto. Mi aspettavo un paio di cose, poi mi sono
+                trovato davanti a nove antipasti e ho dovuto studiare di più)
               </span>
             </div>
           </div>
@@ -355,21 +355,66 @@ function EdizioneNatale2026() {
       {/* SEZIONE 9B: Cocktail List */}
       <section className="fullscreen anchor c8 cocktails">
         <p className="col-ei">Cocktail List — Laboratorio Forest</p>
+        <p className="smaller">Otto ricette, quattro basi, niente ginger ale</p>
+
         <div className="menu-course">
-          <h2>Rivelazione all'Ultimo Minuto</h2>
+          <h2>Un Occhio al Futuro</h2>
+
           <div className="menu-subitem">
-            <span className="menu-dish">
-              La carta delle libagioni verrà svelata solo a ridosso del pranzo,
-              con la solennità di un'apertura di testamento. Fino ad allora:
-              mistero, attesa e qualche bottiglia che sparisce misteriosamente
-              dal mobile bar
-            </span>
-            <span className="menu-desc">
-              (mi aspettavo un paio di cose, poi mi sono trovato davanti a nove
-              antipasti e ora devo studiare di più)
-            </span>
+            <span className="menu-dish">01 ● Quello che prenderebbe Merkoh</span>
+            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Alle 18:00 verrà diviso equamente tra i presenti, come le crespelle</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">02 ○ Al contadino Dome non far sapere</span>
+            <span className="menu-desc">Pera arrostita, tonica delicata e limone — il proverbio originale parlava di formaggio e pere. Qui il formaggio non c'è, e il Maestro non deve scoprire che le pere migliori sono finite nel bicchiere invece che nel suo dolce</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">03 ○ No, mango oggi</span>
+            <span className="menu-desc">Pera arrostita, zenzero fresco, limone e soda — risposta ufficiale alla domanda "Merkoh arriva?". Lo zenzero aiuta a digerire la delusione. Il mango è nella sezione accanto: questo è di pera, leggete bene il titolo</span>
           </div>
         </div>
+
+        <div className="menu-course">
+          <h2>Un Occhio al Passato</h2>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">07 ● Un pomeriggio d'autunno in spiaggia a Cervia</span>
+            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco e mediterraneo come la riviera a novembre: ombrelloni chiusi, un cane, un signore col metal detector. Malinconia servita con ghiaccio</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">08 ● Never again trimone</span>
+            <span className="menu-desc">Negroni EVO con Campari, vermouth rosso infuso all'Earl Grey Çaykur e scorza d'arancia — nato dalla promessa solenne fatta la mattina dopo l'ultima edizione. Il nome è un giuramento, la seconda ordinazione è uno spergiuro</span>
+          </div>
+        </div>
+
+        <div className="menu-course">
+          <h2>Un Occhio al Presente</h2>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">04 ○ La scelta di Dado</span>
+            <span className="menu-desc">Mango leggermente caramellato, tonica e lime — da quando si è sposato Dado non sceglie più da solo: questo drink è stato approvato in commissione. Resta comunque il referente ufficiale per i reclami sul menu</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">05 ○ Un altro posto esotico che Sara e Hendi non vedranno quest'inverno</span>
+            <span className="menu-desc">Mango, tè verde ananas-limone-zenzero, lime e soda — seguito ufficiale di "Un posto lontano che Hendi e Sara non vedranno quest'anno" (Agosto 2026). La saga continua, le ferie no: con Lendi e la casa nuova l'esotico arriva solo in bicchiere</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">06 ● Mango fizz</span>
+            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Forest si è esaurita esattamente qui, all'altezza del nono antipasto</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="fullscreen anchor c8 notes">
+        <p className="smaller">Note sul Bere</p>
+        <p>● alcolico, ○ analcolico. Nessuno vi giudicherà per la scelta, ma Forest prenderà nota.</p>
+        <p>Il gin è stato lavato nell'olio extravergine, congelato e filtrato. No, non è unto. Sì, Fofi ci ha pensato per settimane. Sì, di nuovo.</p>
+        <p>I tè contengono caffeina: chi si addormenta dopo le crespelle non può dare la colpa ai cocktail. Per eventuali allergeni nelle toniche chiedere al banco.</p>
       </section>
 
       {/* SEZIONE 10: Recensioni */}
