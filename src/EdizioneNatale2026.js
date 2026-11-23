@@ -358,54 +358,63 @@ function EdizioneNatale2026() {
         <p className="smaller">Otto ricette, quattro basi, niente ginger ale</p>
 
         <div className="menu-course">
-          <h2>Un Occhio al Futuro</h2>
-
+          <h2>Ieri</h2>
           <div className="menu-subitem">
-            <span className="menu-dish">01 ● Quello che prenderebbe Merkoh</span>
-            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Alle 18:00 verrà diviso equamente tra i presenti, come le crespelle</span>
+            <span className="menu-desc">Sapori passati, mescolati a note nuove che ricordano il tempo che passa</span>
           </div>
-
-          <div className="menu-subitem">
-            <span className="menu-dish">02 ○ Al contadino Dome non far sapere</span>
-            <span className="menu-desc">Pera arrostita, tonica delicata e limone — il proverbio originale parlava di formaggio e pere. Qui il formaggio non c'è, e il Maestro non deve scoprire che le pere migliori sono finite nel bicchiere invece che nel suo dolce</span>
-          </div>
-
-          <div className="menu-subitem">
-            <span className="menu-dish">03 ○ No, mango oggi</span>
-            <span className="menu-desc">Pera arrostita, zenzero fresco, limone e soda — risposta ufficiale alla domanda "Merkoh arriva?". Lo zenzero aiuta a digerire la delusione. Il mango è nella sezione accanto: questo è di pera, leggete bene il titolo</span>
-          </div>
-        </div>
-
-        <div className="menu-course">
-          <h2>Un Occhio al Passato</h2>
 
           <div className="menu-subitem">
             <span className="menu-dish">07 ● Un pomeriggio d'autunno in spiaggia a Cervia</span>
-            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco e mediterraneo come la riviera a novembre: ombrelloni chiusi, un cane, un signore col metal detector. Malinconia servita con ghiaccio</span>
+            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco come la riviera a fine ottobre: ombrelloni chiusi, nebbia, un cane, un signore col metal detector. E Dome e Fofi a inaugurare un furgone. Malinconia, con ghiaccio</span>
           </div>
 
           <div className="menu-subitem">
             <span className="menu-dish">08 ● Never again trimone</span>
-            <span className="menu-desc">Negroni EVO con Campari, vermouth rosso infuso all'Earl Grey Çaykur e scorza d'arancia — nato dalla promessa solenne fatta la mattina dopo l'ultima edizione. Il nome è un giuramento, la seconda ordinazione è uno spergiuro</span>
+            <span className="menu-desc">Negroni EVO con Campari, vermouth rosso infuso all'Earl Grey Çaykur e scorza d'arancia — l'immancabile tradizione, con un twist pugliese. Se Hendi mi procura un goccio di olio di Pesaro, arriva anche la versione marchigiana</span>
           </div>
         </div>
 
         <div className="menu-course">
-          <h2>Un Occhio al Presente</h2>
+          <h2>Domani</h2>
+          <div className="menu-subitem">
+            <span className="menu-desc">Le sfide che arrivano, senza sapere ancora se saremo all'altezza</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">01 ● Quello che prenderebbe Merkoh</span>
+            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Sa di attesa</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">02 ○ Al contadino Dome non far sapere</span>
+            <span className="menu-desc">Pera arrostita, tonica delicata e limone — il proverbio parlava di formaggio e pere. Qui il formaggio non c'è: vedremo se sarà comunque una bella rivelazione</span>
+          </div>
+
+          <div className="menu-subitem">
+            <span className="menu-dish">03 ○ No, mango oggi</span>
+            <span className="menu-desc">Pera arrostita, zenzero fresco, limone e soda — risposta (cringe) ufficiale a "e quindi ora posso rifarti un cocktail alcolico?". Per le amiche in attesa, per chi non beve, e per Dado. Lo zenzero aiuta a digerire. Plot twist: il mango non c'è, almeno non qui</span>
+          </div>
+        </div>
+
+        <div className="menu-course">
+          <h2>Oggi</h2>
+          <div className="menu-subitem">
+            <span className="menu-desc">Quello che siamo, quello che siamo diventati, e perché</span>
+          </div>
 
           <div className="menu-subitem">
             <span className="menu-dish">04 ○ La scelta di Dado</span>
-            <span className="menu-desc">Mango leggermente caramellato, tonica e lime — da quando si è sposato Dado non sceglie più da solo: questo drink è stato approvato in commissione. Resta comunque il referente ufficiale per i reclami sul menu</span>
+            <span className="menu-desc">Mango leggermente caramellato, tonica e lime — da sposato, Dado non sceglie più da solo: questo glielo lascio come piccola libertà. Per i reclami sul menu, il referente resta comunque lui</span>
           </div>
 
           <div className="menu-subitem">
             <span className="menu-dish">05 ○ Un altro posto esotico che Sara e Hendi non vedranno quest'inverno</span>
-            <span className="menu-desc">Mango, tè verde ananas-limone-zenzero, lime e soda — seguito ufficiale di "Un posto lontano che Hendi e Sara non vedranno quest'anno" (Agosto 2026). La saga continua, le ferie no: con Lendi e la casa nuova l'esotico arriva solo in bicchiere</span>
+            <span className="menu-desc">Mango, tè verde ananas-limone-zenzero, lime e soda — il seguito dell'ultima edizione. Ancora niente viaggio zaino in spalla: la saga continua, le ferie no. Con Lendi, l'esotico arriva nel bicchiere</span>
           </div>
 
           <div className="menu-subitem">
             <span className="menu-dish">06 ● Mango fizz</span>
-            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Forest si è esaurita esattamente qui, all'altezza del nono antipasto</span>
+            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Fofi è finita qui</span>
           </div>
         </div>
       </section>
