@@ -364,8 +364,8 @@ function EdizioneNatale2026() {
           </div>
 
           <div className="menu-subitem">
-            <span className="menu-dish">07 ● Un pomeriggio d'autunno in spiaggia a Cervia</span>
-            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco come la riviera a fine ottobre: ombrelloni chiusi, nebbia, un cane, un signore col metal detector. E Dome e Fofi a inaugurare un furgone. Malinconia, con ghiaccio</span>
+            <span className="menu-dish">07 ●* Un pomeriggio d'autunno in spiaggia a Cervia</span>
+            <span className="menu-desc">Gin Tanqueray all'olio EVO, tonica neutra e scorza di limone — secco come la riviera a fine ottobre: ombrelloni chiusi, nebbia, un cane, un signore col metal detector. E Dome e Fofi a inaugurare un furgone. Malinconia, con ghiaccio<br />* Analcolico: gin analcolico e tonica neutra. Un gin tonic classico, senza fat-washing</span>
           </div>
 
           <div className="menu-subitem">
@@ -381,8 +381,8 @@ function EdizioneNatale2026() {
           </div>
 
           <div className="menu-subitem">
-            <span className="menu-dish">01 ● Quello che prenderebbe Merkoh</span>
-            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Sa di attesa</span>
+            <span className="menu-dish">01 ●* Quello che prenderebbe Merkoh</span>
+            <span className="menu-desc">Pera arrostita, gin Tanqueray all'olio EVO, limone, timo e soda — preparato con cura e lasciato sul bancone ad aspettarlo. Sa di attesa<br />* Analcolico: pera arrostita, gin analcolico, limone, soda e timo. Si perdono le note dell'EVO, resta il botanico</span>
           </div>
 
           <div className="menu-subitem">
@@ -413,15 +413,15 @@ function EdizioneNatale2026() {
           </div>
 
           <div className="menu-subitem">
-            <span className="menu-dish">06 ● Mango fizz</span>
-            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Fofi è finita qui</span>
+            <span className="menu-dish">06 ●* Mango fizz</span>
+            <span className="menu-desc">Mango, gin Tanqueray all'olio EVO, lime e soda — l'unico con un nome normale. La fantasia di Fofi è finita qui<br />* Analcolico: mango, gin analcolico, lime e soda. Forse persino più fresco dell'originale</span>
           </div>
         </div>
       </section>
 
       <section className="fullscreen anchor c8 notes">
         <p className="smaller">Note sul Bere</p>
-        <p>● alcolico, ○ analcolico. Nessuno vi giudicherà per la scelta, ma Forest prenderà nota.</p>
+        <p>● alcolico, ○ analcolico, * disponibile anche in versione analcolica: basta chiedere. Nessuno vi giudicherà per la scelta, ma Forest prenderà nota.</p>
         <p>Il gin è stato lavato nell'olio extravergine, congelato e filtrato. No, non è unto. Sì, Fofi ci ha pensato per settimane. Sì, di nuovo.</p>
         <p>I tè contengono caffeina: chi si addormenta dopo le crespelle non può dare la colpa ai cocktail. Per eventuali allergeni nelle toniche chiedere al banco.</p>
       </section>
