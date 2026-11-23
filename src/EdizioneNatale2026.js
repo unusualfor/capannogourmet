@@ -404,7 +404,7 @@ function EdizioneNatale2026() {
           <p className="review-text">
             "Non so se sia più innamorato della pagnotta che è suo figlio o della pagnotta di pane!"
           </p>
-          <p className="review-author">— Sara Arlati</p>
+          <p className="review-author">— Sara Arlati, compagna di Hendi e madre di Lendi</p>
           <p className="stars">💔💔💔💔💔</p>
         </div>
 
